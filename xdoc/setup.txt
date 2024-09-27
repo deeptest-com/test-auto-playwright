@@ -3,6 +3,8 @@ export OPENAI_API_URL='https://api.openai-proxy.org/v1'
 
 export AUTO_PLAYWRIGHT_DEBUG=true
 
-
+nvm use v20.15.0
 npm run start
+
+npm run test tests/test.spec.ts
 npx playwright test tests/test.spec.ts
