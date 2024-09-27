@@ -18,7 +18,9 @@ const options: StepOptions = {
   openaiApiKey: apiKey,
   openaiBaseUrl: `https://${resource}.openai.azure.com/openai/deployments/${model}`,
   openaiDefaultQuery: { 'api-version': apiVersion },
-  openaiDefaultHeaders: { 'api-key': apiKey }
+  openaiDefaultHeaders: { 'api-key': apiKey },
+
+  debug: true,
 };
 
 test("executes click", async ({ page }) => {
