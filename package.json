@@ -55,7 +55,8 @@
     "format": "prettier --write ./src",
     "lint": "prettier --check ./src && knip",
     "semantic-release": "semantic-release",
-    "test": "export NODE_ENV=dev && playwright test",
+
+    "dev": "export NODE_ENV=dev && playwright test",
     "test": "playwright test"
   },
   "version": "0.0.0-development"

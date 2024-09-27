@@ -6,5 +6,5 @@ export AUTO_PLAYWRIGHT_DEBUG=true
 nvm use v20.15.0
 npm run start
 
-npm run test tests/test.spec.ts
+npm run dev tests/test.spec.ts
 npx playwright test tests/test.spec.ts
