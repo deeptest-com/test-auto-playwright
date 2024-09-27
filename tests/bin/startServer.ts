@@ -14,14 +14,25 @@ export const startServer = (port: number) => {
     </form>
     <div id="click-counter">
       <p>Click count: <span id="current-count" data-testid="current-count">0</span></p>
-      <button id="click-button">Click me</button>
+      
+      <!--<button id="click-button" title="dog">Click me</button>-->
+      
+      <input id="dog" title="MyDog" />
+      
       <script>
       const clickButton = document.getElementById("click-button");
       const currentCount = document.getElementById("current-count");
+      const dogInput = document.getElementById("dog");
+      
       let clickCount = 0;
-      clickButton.addEventListener("click", () => {
+/*      clickButton.addEventListener("click", () => {
+        currentCount.innerText = ++clickCount;
+      }); */
+      
+      dogInput.addEventListener("click", () => {
         currentCount.innerText = ++clickCount;
       });
+      
       </script>
     </div>
   </body>

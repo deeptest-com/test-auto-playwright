@@ -1,0 +1,8 @@
+export OPENAI_API_KEY='sk-Gl1V3nAzyE3m8wAiEEx6ijlcoux3Vx5lP4ZVj5v0tmaJYKhe'
+export OPENAI_API_URL='https://api.openai-proxy.org/v1'
+
+export AUTO_PLAYWRIGHT_DEBUG=true
+
+
+npm run start
+npx playwright test tests/test.spec.ts
