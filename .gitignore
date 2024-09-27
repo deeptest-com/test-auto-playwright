@@ -1,11 +1,7 @@
 dist
 node_modules
 test-results
-/.idea/inspectionProfiles/Project_Default.xml
-/.idea/.gitignore
-/.idea/auto-playwright.iml
-/.idea/modules.xml
-/.idea/vcs.xml
+/.idea/*
 /package-lock.json
 /.env.dev
 /.env.prd
