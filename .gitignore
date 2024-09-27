@@ -1,7 +1,7 @@
 dist
 node_modules
 test-results
-/.idea/*
+/.idea/
 /package-lock.json
 /.env.dev
 /.env.prd
